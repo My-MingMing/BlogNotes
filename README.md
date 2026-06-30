@@ -1,8 +1,9 @@
+# LLM / Agent 笔记 — 主题阅读指南
 
-> 本仓库已离线整理 **114 篇**（2025–2026）笔记，全部图片本地化，可断网阅读。  
+> 本仓库已离线整理 **120 篇**（2025–2026）笔记，全部图片本地化，可断网阅读。  
 > 完整按时间排列的清单见 **[完整目录.md](<完整目录.md>)**；本文件是按知识体系组织的**推荐阅读路线**。
 
-这位博主的笔记有一个鲜明特点：**先用一个 36 篇的系列把大模型底层原理讲透，再逐个精读业界主流 Agent 框架的源码**。
+笔记有一个鲜明特点：**先用一个 36 篇的系列把大模型底层原理讲透，再逐个精读业界主流 Agent 框架的源码**。
 因此它既适合补理论基础，也适合工程师对照真实代码库学习 Agent 系统设计。下面我按研究/工程视角把它重新组织成若干主题，
 每个主题标注了**适合人群、前置知识和阅读顺序**。
 
@@ -62,6 +63,9 @@
 - [探秘Transformer系列之（17）--- RoPE](<notes/2025-03-23_探秘Transformer系列之（17）--- RoPE/index.md>)
 - [探秘Transformer系列之（23）--- 长度外推](<notes/2025-04-05_探秘Transformer系列之（23）--- 长度外推/index.md>)
 > 17=RoPE，23=长度外推，是当下长上下文模型的基础。
+
+**1.3 系列总览（索引贴）**
+- [探秘Transformer系列之文章列表](<notes/2025-03-21_探秘Transformer系列之文章列表/index.md>)
 
 ## 主题 2 · 推理与部署优化（工程核心）
 
@@ -195,7 +199,7 @@
 
 > **适合**：关注用 RL 训练 Agent、On-Policy Distillation 的研究者。**前置**：主题 5 中任一框架 + RL 基础。
 
-**7.1 OpenClaw-RL —— Agentic RL 与 On-Policy Distillation 源码（5 篇）**
+**7.1 OpenClaw-RL —— Agentic RL 与 On-Policy Distillation 源码（6 篇）**
 - [【Agentic RL / 强化学习 / OPD】OpenClaw-RL 源码阅读笔记 --- (1)---基础](<notes/2026-05-25_【Agentic RL 强化学习 OPD】OpenClaw-RL 源码阅读笔记 --- (1)---基础/index.md>)
 - [【Agentic RL / 强化学习 / OPD】OpenClaw-RL 源码阅读笔记 --- (2)--- On-Policy Distillation](<notes/2026-05-27_【Agentic RL 强化学习 OPD】OpenClaw-RL 源码阅读笔记 --- (2)--- On-Policy Distillation/index.md>)
 - [【Agentic RL / 强化学习 / OPD】OpenClaw-RL 源码阅读笔记 --- (3)--- 总体思考](<notes/2026-05-28_【Agentic RL 强化学习 OPD】OpenClaw-RL 源码阅读笔记 --- (3)--- 总体思考/index.md>)
@@ -203,9 +207,20 @@
 - [【Agentic RL / 强化学习 / OPD】OpenClaw-RL 源码阅读笔记 --- (5)--- 异步处理](<notes/2026-06-01_【Agentic RL 强化学习 OPD】OpenClaw-RL 源码阅读笔记 --- (5)--- 异步处理/index.md>)
 - [【Agentic RL / 强化学习 / OPD】OpenClaw-RL 源码阅读笔记 --- (6)--- Rollout](<notes/2026-06-18_【Agentic RL 强化学习 OPD】OpenClaw-RL 源码阅读笔记 --- (6)--- Rollout/index.md>)
 
-**7.2 Uni-Agent —— 强化学习框架深度分析**
+**7.2 Uni-Agent · Miles —— 强化学习框架深度分析**
 - [【Agentic RL / 强化学习框架】Uni-Agent 深度技术分析（1）--- 总体](<notes/2026-06-09_【Agentic RL 强化学习框架】Uni-Agent 深度技术分析（1）--- 总体/index.md>)
 - [【强化学习框架】Uni-Agent 深度技术分析（2）--- 关键技术](<notes/2026-06-11_【强化学习框架】Uni-Agent 深度技术分析（2）--- 关键技术/index.md>)
+- [【Agentic RL / 强化学习框架】Miles 项目技术分析---（1）--- 总体](<notes/2026-06-15_【Agentic RL 强化学习框架】Miles 项目技术分析---（1）--- 总体/index.md>)
+- [【Agentic RL / 强化学习框架】Miles 项目技术分析---（2）--- 关键技术](<notes/2026-06-16_【Agentic RL 强化学习框架】Miles 项目技术分析---（2）--- 关键技术/index.md>)
+
+**7.3 SERL / HIL-SERL —— 真机强化学习 · 具身智能（新增系列）**
+- [【机器人 / 强化学习】SERL：让真机强化学习从“难用”走向“可复现”的强化学习框架 ----（1）全景篇](<notes/2026-06-22_【机器人 强化学习】SERL：让真机强化学习从“难用”走向“可复现”的强化学习框架 ----（1）全景篇/index.md>)
+- [【机器人 / 强化学习】SERL：让真机强化学习从“难用”走向“可复现”的强化学习框架 ---- （2）算法篇（SAC）](<notes/2026-06-23_【机器人 强化学习】SERL：让真机强化学习从“难用”走向“可复现”的强化学习框架 ---- （2）算法篇（SAC）/index.md>)
+- [【机器人 / 强化学习】SERL：让真机强化学习从“难用”走向“可复现”的强化学习框架 ----（3）算法篇（RLPD）](<notes/2026-06-25_【机器人 强化学习】SERL：让真机强化学习从“难用”走向“可复现”的强化学习框架 ----（3）算法篇（RLPD）/index.md>)
+- [【机器人 / 强化学习】SERL：让真机强化学习从“难用”走向“可复现”的强化学习框架 ----（4）算法篇（DrQ vs VICE）](<notes/2026-06-26_【机器人 强化学习】SERL：让真机强化学习从“难用”走向“可复现”的强化学习框架 ----（4）算法篇（DrQ vs VICE）/index.md>)
+- [【机器人 / 强化学习】SERL：让真机强化学习从“难用”走向“可复现”的强化学习框架 ----（5）工程篇](<notes/2026-06-28_【机器人 强化学习】SERL：让真机强化学习从“难用”走向“可复现”的强化学习框架 ----（5）工程篇/index.md>)
+- [【机器人 / 强化学习】HIL-SERL：人类在环驱动的具身智能进化框架](<notes/2026-06-29_【机器人 强化学习】HIL-SERL：人类在环驱动的具身智能进化框架/index.md>)
+> 把 RL 从 LLM/Agent 延伸到真实机器人：SERL(1)全景 → (2)SAC → (3)RLPD → (4)DrQ vs VICE → (5)工程 → HIL-SERL 人在环。具身智能方向必读。
 
 ## 主题 8 · Agent 架构理论与设计模式（高屋建瓴）
 
@@ -242,12 +257,6 @@
 
 ---
 
-> 📚 本指南共覆盖 111/114 篇。
->
-> **未归类（补充阅读）**：
-> - [探秘Transformer系列之文章列表](<notes/2025-03-21_探秘Transformer系列之文章列表/index.md>)
-> - [【Agentic RL / 强化学习框架】Miles 项目技术分析---（2）--- 关键技术](<notes/2026-06-16_【Agentic RL 强化学习框架】Miles 项目技术分析---（2）--- 关键技术/index.md>)
-> - [【Agentic RL / 强化学习框架】Miles 项目技术分析---（1）--- 总体](<notes/2026-06-15_【Agentic RL 强化学习框架】Miles 项目技术分析---（1）--- 总体/index.md>)
+> 📚 本指南共覆盖 120/120 篇。
 
 ---
-*本整理仅供个人学习。*
