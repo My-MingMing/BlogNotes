@@ -1,6 +1,6 @@
 # LLM / Agent 笔记 — 主题阅读指南
 
-> 本仓库已离线整理 **127 篇**（2025–2026）笔记，全部图片本地化，可断网阅读。  
+> 本仓库已离线整理 **130 篇**（2025–2026）笔记，全部图片本地化，可断网阅读。  
 > 完整按时间排列的清单见 **[完整目录.md](<完整目录.md>)**；本文件是按知识体系组织的**推荐阅读路线**。
 
 这位博主的笔记有一个鲜明特点：**先用一个 36 篇的系列把大模型底层原理讲透，再逐个精读业界主流 Agent 框架的源码**。
@@ -206,6 +206,8 @@
 - [【Agentic RL / 强化学习 / OPD】OpenClaw-RL 源码阅读笔记 --- (4)--- 架构](<notes/2026-05-30_【Agentic RL 强化学习 OPD】OpenClaw-RL 源码阅读笔记 --- (4)--- 架构/index.md>)
 - [【Agentic RL / 强化学习 / OPD】OpenClaw-RL 源码阅读笔记 --- (5)--- 异步处理](<notes/2026-06-01_【Agentic RL 强化学习 OPD】OpenClaw-RL 源码阅读笔记 --- (5)--- 异步处理/index.md>)
 - [【Agentic RL / 强化学习 / OPD】OpenClaw-RL 源码阅读笔记 --- (6)--- Rollout](<notes/2026-06-18_【Agentic RL 强化学习 OPD】OpenClaw-RL 源码阅读笔记 --- (6)--- Rollout/index.md>)
+- [【Agentic RL / 强化学习 / OPD】OpenClaw-RL 源码阅读笔记 --- (7)--- Policy Serving](<notes/2026-07-14_【Agentic RL 强化学习 OPD】OpenClaw-RL 源码阅读笔记 --- (7)--- Policy Serving/index.md>)
+- [【Agentic RL / 强化学习 / OPD】OpenClaw-RL 源码阅读笔记 --- (8)--- Environment](<notes/2026-07-16_【Agentic RL 强化学习 OPD】OpenClaw-RL 源码阅读笔记 --- (8)--- Environment/index.md>)
 
 **7.2 Uni-Agent · Miles —— 强化学习框架深度分析**
 - [【Agentic RL / 强化学习框架】Uni-Agent 深度技术分析（1）--- 总体](<notes/2026-06-09_【Agentic RL 强化学习框架】Uni-Agent 深度技术分析（1）--- 总体/index.md>)
@@ -227,6 +229,7 @@
 - [【机器人 / 强化学习】IQL（Implicit Q-Learning）：离线强化学习的隐式价值提取](<notes/2026-07-07_【机器人 强化学习】IQL（Implicit Q-Learning）：离线强化学习的隐式价值提取/index.md>)
 - [【机器人 / 强化学习】DIVL：分布隐式价值学习](<notes/2026-07-09_【机器人 强化学习】DIVL：分布隐式价值学习/index.md>)
 - [【机器人 / 强化学习】QAM：基于伴随匹配的 Q-learning 流策略优化](<notes/2026-07-11_【机器人 强化学习】QAM：基于伴随匹配的 Q-learning 流策略优化/index.md>)
+- [【机器人 / 强化学习】QAM 与 DIVL：评价-执行闭环的完美配合](<notes/2026-07-13_【机器人 强化学习】QAM 与 DIVL：评价-执行闭环的完美配合/index.md>)
 > 把 RL 从 LLM/Agent 延伸到真实机器人：SERL(1)全景 → (2)SAC → (3)RLPD → (4)DrQ vs VICE → (5)工程 → HIL-SERL 人在环。具身智能方向必读。
 
 ## 主题 8 · Agent 架构理论与设计模式（高屋建瓴）
@@ -264,6 +267,6 @@
 
 ---
 
-> 📚 本指南共覆盖 127/127 篇。
+> 📚 本指南共覆盖 130/130 篇。
 
 ---
