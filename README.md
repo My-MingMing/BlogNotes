@@ -1,6 +1,6 @@
 # LLM / Agent 笔记 — 主题阅读指南
 
-> 本仓库已离线整理 **130 篇**（2025–2026）笔记，全部图片本地化，可断网阅读。  
+> 本仓库已离线整理 **136 篇**（2025–2026）笔记，全部图片本地化，可断网阅读。  
 > 完整按时间排列的清单见 **[完整目录.md](<完整目录.md>)**；本文件是按知识体系组织的**推荐阅读路线**。
 
 这位博主的笔记有一个鲜明特点：**先用一个 36 篇的系列把大模型底层原理讲透，再逐个精读业界主流 Agent 框架的源码**。
@@ -208,6 +208,12 @@
 - [【Agentic RL / 强化学习 / OPD】OpenClaw-RL 源码阅读笔记 --- (6)--- Rollout](<notes/2026-06-18_【Agentic RL 强化学习 OPD】OpenClaw-RL 源码阅读笔记 --- (6)--- Rollout/index.md>)
 - [【Agentic RL / 强化学习 / OPD】OpenClaw-RL 源码阅读笔记 --- (7)--- Policy Serving](<notes/2026-07-14_【Agentic RL 强化学习 OPD】OpenClaw-RL 源码阅读笔记 --- (7)--- Policy Serving/index.md>)
 - [【Agentic RL / 强化学习 / OPD】OpenClaw-RL 源码阅读笔记 --- (8)--- Environment](<notes/2026-07-16_【Agentic RL 强化学习 OPD】OpenClaw-RL 源码阅读笔记 --- (8)--- Environment/index.md>)
+- [【Agentic RL / 强化学习 / OPD】OpenClaw-RL 源码阅读笔记 --- (9)--- Reward Judging](<notes/2026-07-20_【Agentic RL 强化学习 OPD】OpenClaw-RL 源码阅读笔记 --- (9)--- Reward Judging/index.md>)
+- [【Agentic RL / 强化学习 / OPD】OpenClaw-RL 源码阅读笔记 --- (10)--- PRM](<notes/2026-07-22_【Agentic RL 强化学习 OPD】OpenClaw-RL 源码阅读笔记 --- (10)--- PRM/index.md>)
+- [【Agentic RL / 强化学习 / OPD】OpenClaw-RL 源码阅读笔记 --- (11)--- 算法总体实现](<notes/2026-07-23_【Agentic RL 强化学习 OPD】OpenClaw-RL 源码阅读笔记 --- (11)--- 算法总体实现/index.md>)
+- [【Agentic RL / 强化学习 / OPD】OpenClaw-RL 源码阅读笔记 --- (12)--- GRPO](<notes/2026-07-27_【Agentic RL 强化学习 OPD】OpenClaw-RL 源码阅读笔记 --- (12)--- GRPO/index.md>)
+- [【Agentic RL / 强化学习 / OPD】OpenClaw-RL 源码阅读笔记 --- (13)--- OPD实现](<notes/2026-07-28_【Agentic RL 强化学习 OPD】OpenClaw-RL 源码阅读笔记 --- (13)--- OPD实现/index.md>)
+- [【Agentic RL / 强化学习 / OPD】OpenClaw-RL 源码阅读笔记 --- (14)--- Teacher](<notes/2026-07-29_【Agentic RL 强化学习 OPD】OpenClaw-RL 源码阅读笔记 --- (14)--- Teacher/index.md>)
 
 **7.2 Uni-Agent · Miles —— 强化学习框架深度分析**
 - [【Agentic RL / 强化学习框架】Uni-Agent 深度技术分析（1）--- 总体](<notes/2026-06-09_【Agentic RL 强化学习框架】Uni-Agent 深度技术分析（1）--- 总体/index.md>)
@@ -267,6 +273,6 @@
 
 ---
 
-> 📚 本指南共覆盖 130/130 篇。
+> 📚 本指南共覆盖 136/136 篇。
 
 ---
