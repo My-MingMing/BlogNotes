@@ -1,6 +1,6 @@
 # LLM / Agent 笔记 — 主题阅读指南
 
-> 本仓库已离线整理 **136 篇**（2025–2026）笔记，全部图片本地化，可断网阅读。  
+> 本仓库已离线整理 **141 篇**（2025–2026）笔记，全部图片本地化，可断网阅读。  
 > 完整按时间排列的清单见 **[完整目录.md](<完整目录.md>)**；本文件是按知识体系组织的**推荐阅读路线**。
 
 这位博主的笔记有一个鲜明特点：**先用一个 36 篇的系列把大模型底层原理讲透，再逐个精读业界主流 Agent 框架的源码**。
@@ -214,6 +214,8 @@
 - [【Agentic RL / 强化学习 / OPD】OpenClaw-RL 源码阅读笔记 --- (12)--- GRPO](<notes/2026-07-27_【Agentic RL 强化学习 OPD】OpenClaw-RL 源码阅读笔记 --- (12)--- GRPO/index.md>)
 - [【Agentic RL / 强化学习 / OPD】OpenClaw-RL 源码阅读笔记 --- (13)--- OPD实现](<notes/2026-07-28_【Agentic RL 强化学习 OPD】OpenClaw-RL 源码阅读笔记 --- (13)--- OPD实现/index.md>)
 - [【Agentic RL / 强化学习 / OPD】OpenClaw-RL 源码阅读笔记 --- (14)--- Teacher](<notes/2026-07-29_【Agentic RL 强化学习 OPD】OpenClaw-RL 源码阅读笔记 --- (14)--- Teacher/index.md>)
+- [【Agentic RL / 强化学习 / OPD】OpenClaw-RL 源码阅读笔记 --- (15)--- Combine模式](<notes/2026-08-03_【Agentic RL 强化学习 OPD】OpenClaw-RL 源码阅读笔记 --- (15)--- Combine模式/index.md>)
+- [【Agentic RL / 强化学习 / OPD】OpenClaw-RL 源码阅读笔记 --- (16)--- AReal](<notes/2026-08-04_【Agentic RL 强化学习 OPD】OpenClaw-RL 源码阅读笔记 --- (16)--- AReal/index.md>)
 
 **7.2 Uni-Agent · Miles —— 强化学习框架深度分析**
 - [【Agentic RL / 强化学习框架】Uni-Agent 深度技术分析（1）--- 总体](<notes/2026-06-09_【Agentic RL 强化学习框架】Uni-Agent 深度技术分析（1）--- 总体/index.md>)
@@ -273,6 +275,11 @@
 
 ---
 
-> 📚 本指南共覆盖 136/136 篇。
+> 📚 本指南共覆盖 138/141 篇。
+>
+> **未归类（补充阅读）**：
+> - [【OpenClaw具身硬件】MiniClaw 阅读笔记---(1)基础](<notes/2026-08-11_【OpenClaw具身硬件】MiniClaw 阅读笔记---(1)基础/index.md>)
+> - [【Agentic RL / 强化学习 / OPD】Hermes & OPD 源码阅读笔记](<notes/2026-08-10_【Agentic RL 强化学习 OPD】Hermes & OPD 源码阅读笔记/index.md>)
+> - [VelesDB 深度解读 —— 融合向量、图与列存的端侧 AI 记忆引擎](<notes/2026-08-06_VelesDB 深度解读 —— 融合向量、图与列存的端侧 AI 记忆引擎/index.md>)
 
 ---
